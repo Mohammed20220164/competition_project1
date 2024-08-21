@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000; /* Black background */
+    background-size: cover;
+    color: #fff; /* White text color */
+}
+
+.about-us {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    flex-direction: row; /* Image on the left, text on the right */
+    margin-right: 80px;
+}
+.line {
+    color: #00c2b7;
+    font-size: 40px;
+    margin-bottom: 25px; /* Adjust margin as needed */
+}
+.about-us::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 900px;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+}
+.about-image {
+    max-width: 50%;
+}
+
+.about-image img {
+    max-width: 800px;
+    height: 620px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+}
+
+.about-content {
+    max-width: 50%;
+    padding-left: 30px; /* Space between the image and text */
+}
+
+.section-title {
+    color: #00c2b7;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -50px; /* Reduced margin */
+    line-height: 1.2; /* Adjusted line height for tighter spacing */
+}
+
+.main-title span {
+    color: #00c2b7; /* Highlighted word color */
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between; /* Distribute items evenly */
+    margin-top: 40px; /* Maintain margin above features */
+    gap: 20px; /* Add space between items */
+    /* Added flex-wrap to ensure items wrap to the next line */
+    flex-wrap: wrap;
+}
+
+.feature-item {
+    position: relative; /* Enable positioning context */
+    padding: 30px; /* Increased padding for a bigger box */
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 250px; /* Increased width for a bigger box */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center; /* Center the content */
+    /* Added hover effect */
+    &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+}
+
+.feature-icon {
+    display: block;
+    margin: 0 auto 20px auto; /* Center the icon horizontally and add margin below */
+    max-width: 60px; /* Adjust icon size */
+}
+
+.feature-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px; /* Adjust margin for spacing */
+}
+
+.feature-description {
+    font-size: 14px;
+    color: #aaa;
+    margin-top: 10px;
+}
+
+.statistics {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 50px;
+    color: #fff; /* Text color */
+    background-image: 
+        linear-gradient(to right, rgba(49, 195, 172, 0.4), rgba(0, 0, 0, 0.8)), /* Gradient overlay */
+        url('imagess 4/1-removebg-preview.png'); /* Background image */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+    z-index: 1;
+}
+
+.stat-item {
+    text-align: center;
+    position: relative; /* Ensure content is above the overlay */
+    z-index: 2;
+}
+
+.stat-icon {
+    max-width: 80px;
+}
+
+.stat-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #00c2b7; /* Statistic number color */
+    margin-bottom: 5px;
+}
+
+.stat-title {
+    font-size: 20px;
+    color: #ffffff; /* Statistic title color */
+}
+.statistics .content{
+    width: 800px;
+    position: absolute;
+    bottom: 400px;
+    z-index: -10;
+}

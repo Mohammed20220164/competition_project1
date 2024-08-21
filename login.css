@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    background:
+    linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), /* First overlay (semi-transparent black) */
+    linear-gradient(to bottom,rgba(0, 0, 0, 0.8), rgba(0, 45, 41, 0.5)), /* Second overlay (semi-transparent teal) */
+    url('imagess 4/digital-technology-worldwide-global-network-internet-connection-blue-green-background-abstract-cyber-tech-futuristic-planet-world-ai-big-data-innovation-5g-wireless-wifi-future-illustration-vector.jpg') no-repeat center center; /* Background image */
+    background-size: cover; /* Ensures the background image covers the entire section */
+    background-position: center; /* Centers the background image */
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+
+.contact-form {
+    width: 45%;
+    border: 1px solid #31c3ac;
+    padding: 30px 30px 30px;
+    background-color: #121212;
+}
+
+
+.contact-info .highlight {
+    color: #31c3ac;
+}
+
+.contact-info p {
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #797979;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #31c3ac;
+}
+.contact-form #message{
+    height: 200px;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #31c3ac;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    background-color: #31c3ac;
+    border: none;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #28a794;
+}
+
+.contact-info {
+    padding-top: 20px;
+    width: 45%;
+}
+
+.contact-info h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.contact-info h2 {
+    font-size: 22px;
+    color: #31c3ac;
+    margin-bottom: -20px;
+}
+.contact-info .line {
+    color: #31c3ac;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-top: -30px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.info-item img {
+    width: 45px;
+    height: 40px;
+    margin-right: 20px;
+}
+.info-item .text{
+    margin-bottom: -10px;
+    margin-top: 15px;
+}
+.info-item .text p {
+    margin: 0;
+    line-height: 1.4;
+    margin-top: -10px;
+    color: #31c3ac;
+}
+
+.info-item .text h1 {
+    font-size: 24px;
+}
+
+footer {
+    background: 
+    linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 20, 17, 0.816) 50%), /* First overlay (semi-transparent black) */
+    linear-gradient(to left, rgba(0, 0, 0, 0.8) 0%, rgba(0, 62, 57, 0.788) 50%); /* Second overlay (semi-transparent teal) */
+    padding: 20px 0;
+    text-align: center;
+    color: #9ad0ca;
+}
+
+footer h1 {
+    font-size: 70px;
+    padding-top: 30px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    font-size: 10px;
+    margin: 5px 0;
+    color: white;
+}
+
+footer nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 90px 0;
+}
+
+footer nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+footer nav ul li a {
+    color: #9ad0ca;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer .footer-description {
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+footer .social-icons a {
+    color: #9ad0ca;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+footer .footer-bottom {
+    margin-top: 80px;
+}
+
+footer .footer-bottom p {
+    padding-top: 20px;
+    font-size: 12px;
+    color: #7b7b7b;
+}
